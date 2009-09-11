@@ -1,0 +1,269 @@
+body
+{
+	background-color:#393839;
+}
+
+/*/////////////////////////////////////////////////////////////////LOGO//////////////*/
+
+#logo
+{
+	position:absolute;
+	top:1px;
+	left:30%;
+}
+
+/*/////////////////////////////////////////////////////////////////MENU//////////////*/
+
+#menu
+{
+	position:absolute;
+	top:150px;
+	left:2%;
+	width:22%;
+	margin:0px;
+	padding:1px;
+}
+
+#menuTop
+{
+	background: url(../images/menu_top.jpg) center;
+	width:201px;
+	height:25px;
+}
+
+#menuCenter
+{
+	background: url(../images/menu_center.jpg) repeat-y center;
+	width:201px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+#menuBottom
+{
+	background: url(../images/menu_bottom.jpg) center;
+	width:201px;
+	height:25px;
+}
+
+.lista li
+{
+	list-style-type:disc;
+	font-family:Verdana;
+	font-size:11px;
+	font-weight:bold;
+	color:#ceddce;
+	background-color:#393839;
+	margin:15px;
+	cursor:pointer;
+}
+
+#umenu
+{
+	position:absolute;
+	top:160px;
+	left:23%;
+	width:60%;
+	height:20px;
+	background-color:#fbd61a;
+	z-index:10;
+}
+
+.listaUMenu
+{
+	padding-top:0px;
+	padding-left:10px;
+}
+
+.listaUMenu li
+{
+	float:left;
+	left:0px;
+	margin-right:25px;
+	margin-top:5px;
+	padding-top:10px;
+	padding-left:3px;
+	padding-right:3px;
+	background-color:#FFFDB9;
+	font-family:Georgia;
+	font-size:13px;
+	font-weight:bold;
+	color:#000000;
+	cursor:pointer;
+}
+
+.submenu
+{
+	position:absolute;
+	top:40px;
+	background-color:#FFFF00;
+	left:15px;
+}
+
+.submenu ul li
+{
+	float:none;
+}
+
+#menuCompania
+{
+	left:2%;
+}
+
+#menuUsuario
+{
+	left:20%;
+}
+/*/////////////////////////////////////////////////////////////////////////VISTA//////////////*/
+
+#vista
+{
+	background-color:#393839;
+	position:absolute;
+	top:300px;
+	margin-top:5px;
+	left:23%;
+	width:60%;
+	z-index:1;
+	/*background: #393839 url(../images/)*/
+}
+
+
+
+/*seccionDatos*/
+#seccionDatos
+{
+	/*position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:auto;
+	z-index:-1;
+	background-color:#FFF9A8;*/
+}
+
+
+
+
+
+
+
+
+/*///////////////////////////BOTONES//////////////*/
+
+.boton
+{
+	border:none;
+	font-family:Georgia;
+	font-size:12px;
+	font-weight:bold;
+	color:#000000;
+	background-color:#B3A711;
+}
+
+.boton:hover
+{
+	background-color:#4D4D4D;
+}
+
+/*///////////////////////////FUENTE//////////////*/
+
+.tit
+{
+	font-family:Georgia;
+	font-size:30px;
+	color:#FBD61A;
+}
+
+.infoTexto
+{
+	background-color:#454545;
+	font-family:Arial;
+	font-size:13px;
+	color:#aaaaaa;
+	text-align:justify;
+	padding:35px;
+}
+
+.sobresale
+{
+	color:#ffffff;
+}
+
+.subtitulo
+{
+	font-family:Helvetica;
+	font-size:18px;
+	font-weight:bold;
+	color:#969D00;
+}
+
+.infoImportante
+{
+	font-family:Courier;
+	font-size:4px;
+	color:#EDEDEF;
+}
+
+.infoNormal
+{
+	font-family:Verdana;
+	font-size:14px;
+	font-weight:bold;
+	color:#D2C800;
+}
+
+.error
+{
+	font-family:Georgia;
+	font-size:12px;
+	color:#ff0000;
+}
+
+.actualiza
+{
+	cursor:pointer;
+}
+
+.elimina
+{
+	cursor:pointer;
+}
+
+/*///////////////////////////TABLAS//////////////*/
+
+.tabla
+{
+    background-color:#910000;
+    font-family:Georgia;
+    font-size:16px;
+    font-weight:bold;
+    border-bottom:3px solid #9F9F9F;
+    border-left:3px solid #9F9F9F;
+}
+
+.tabla th
+{
+    border-bottom:3px solid #111111;
+	text-align:center;
+	color:#FFCECE;
+}
+
+.tabla td
+{
+    background-color:#408080;
+    font-family:Verdana;
+    font-size:14px;
+    color:#FFFFEC;
+	text-align:center;
+}
+
+.cerrarForma
+{
+    background-color:#000000;
+    font-family:Georgia;
+    font-size:16px;
+    font-weight:bold;
+    color:#FFFFFF;
+    cursor:pointer;
+}
