@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+-
+- phpMyAdmin XML Dump
+- version 2.11.6
+- http://www.phpmyadmin.net
+-
+- Servidor: localhost
+- Tiempo de generación: 06-09-2009 a las 22:39:55
+- Versión del servidor: 5.0.51
+- Versión de PHP: 5.2.6
+-->
+
+<!--
+- Base de datos: 'db_t-kaizen'
+-->
+<db_t-kaizen>
+  <!-- Tabla criterios -->
+    <criterios>
+        <id_Criterios>1</id_Criterios>
+        <Nombre>LIDERAZGO</Nombre>
+        <Descripcion>CRITERIO 1</Descripcion>
+    </criterios>
+    <criterios>
+        <id_Criterios>2</id_Criterios>
+        <Nombre>POLITICA Y ESTRATEGIAS</Nombre>
+        <Descripcion>CRITERIO 2</Descripcion>
+    </criterios>
+    <criterios>
+        <id_Criterios>3</id_Criterios>
+        <Nombre>PERSONAS</Nombre>
+        <Descripcion>CRITERIO 3</Descripcion>
+    </criterios>
+    <criterios>
+        <id_Criterios>4</id_Criterios>
+        <Nombre>ALIANZAS Y RECURSOS</Nombre>
+        <Descripcion>CRITERIO 4</Descripcion>
+    </criterios>
+    <criterios>
+        <id_Criterios>5</id_Criterios>
+        <Nombre>PROCESOS</Nombre>
+        <Descripcion>CRITERIO 5</Descripcion>
+    </criterios>
+    <criterios>
+        <id_Criterios>6</id_Criterios>
+        <Nombre>RESULTADOS EN CLIENTES</Nombre>
+        <Descripcion>CRITERIO 6</Descripcion>
+    </criterios>
+    <criterios>
+        <id_Criterios>7</id_Criterios>
+        <Nombre>RESULTADOS EN PERSONAS</Nombre>
+        <Descripcion>CRITERIO 7</Descripcion>
+    </criterios>
+    <criterios>
+        <id_Criterios>8</id_Criterios>
+        <Nombre>RESULTADOS EN SOCIEDAD</Nombre>
+        <Descripcion>CRITERIO 8</Descripcion>
+    </criterios>
+    <criterios>
+        <id_Criterios>9</id_Criterios>
+        <Nombre>RESULTADOS CLAVE</Nombre>
+        <Descripcion>CRITERIO 9</Descripcion>
+    </criterios>
+  <!-- Tabla empresa -->
+    <empresa>
+        <id_Empresa>1</id_Empresa>
+        <Nombre>TKAIZEN</Nombre>
+        <Descripcion>TKAIZEN</Descripcion>
+        <Giro>0</Giro>
+        <Tamano>0</Tamano>
+    </empresa>
+    <empresa>
+        <id_Empresa>2</id_Empresa>
+        <Nombre>Nueva CompaÃ±ia</Nombre>
+        <Descripcion>Nueva compaÃ±ia agregada</Descripcion>
+        <Giro>14</Giro>
+        <Tamano>2</Tamano>
+        <Telefono></Telefono>
+    </empresa>
+    <empresa>
+        <id_Empresa>3</id_Empresa>
+        <Nombre>Empresa</Nombre>
+        <Descripcion>Nueva Empresa de Transporte</Descripcion>
+        <Giro>21</Giro>
+        <Tamano>0</Tamano>
+        <Telefono>13123213</Telefono>
+    </empresa>
+    <empresa>
+        <id_Empresa>4</id_Empresa>
+        <Nombre>T-Systems</Nombre>
+        <Descripcion>Empresa T-Systems</Descripcion>
+        <Giro>1</Giro>
+        <Tamano>3</Tamano>
+        <Telefono>987987987</Telefono>
+    </empresa>
+    <empresa>
+        <id_Empresa>5</id_Empresa>
+        <Nombre>Volks Wagen</Nombre>
+        <Descripcion>Empresa Volks Wagen</Descripcion>
+        <Giro>5</Giro>
+        <Tamano>0</Tamano>
+        <Telefono>456456456</Telefono>
+    </empresa>
+    <empresa>
+        <id_Empresa>6</id_Empresa>
+        <Nombre>NOMBRE</Nombre>
+        <Descripcion>NOMBRE NUEVA EMPRESA</Descripcion>
+        <Giro>7</Giro>
+        <Tamano>4</Tamano>
+        <Telefono></Telefono>
+    </empresa>
+    <empresa>
+        <id_Empresa>7</id_Empresa>
+        <Nombre>A</Nombre>
+        <Descripcion>Empresa A</Descripcion>
+        <Giro>19</Giro>
+        <Tamano>3</Tamano>
+        <Telefono>123123123</Telefono>
+    </empresa>
+    <empresa>
+        <id_Empresa>8</id_Empresa>
+        <Nombre>B</Nombre>
+        <Descripcion>CompaÃ±ia B</Descripcion>
+        <Giro>18</Giro>
+        <Tamano>2</Tamano>
+        <Telefono></Telefono>
+    </empresa>
+    <empresa>
+        <id_Empresa>9</id_Empresa>
+        <Nombre>C</Nombre>
+        <Descripcion>C</Descripcion>
+        <Giro>20</Giro>
+        <Tamano>0</Tamano>
+        <Telefono>35543534545</Telefono>
+    </empresa>
+    <empresa>
+        <id_Empresa>10</id_Empresa>
+        <Nombre>D</Nombre>
+        <Descripcion>D</Descripcion>
+        <Giro>2</Giro>
+        <Tamano>0</Tamano>
+        <Telefono>33E3E</Telefono>
+    </empresa>
+    <empresa>
+        <id_Empresa>13</id_Empresa>
+        <Nombre>G</Nombre>
+        <Descripcion>CompaÃ±ia G</Descripcion>
+        <Giro>17</Giro>
+        <Tamano>0</Tamano>
+        <Telefono></Telefono>
+    </empresa>
+    <empresa>
+        <id_Empresa>14</id_Empresa>
+        <Nombre>B</Nombre>
+        <Descripcion>B</Descripcion>
+        <Giro>18</Giro>
+        <Tamano>2</Tamano>
+        <Telefono></Telefono>
+    </empresa>
+    <empresa>
+        <id_Empresa>15</id_Empresa>
+        <Nombre>E</Nombre>
+        <Descripcion>Empresa E de Transporte</Descripcion>
+        <Giro>21</Giro>
+        <Tamano>4</Tamano>
+        <Telefono></Telefono>
+    </empresa>
+    <empresa>
+        <id_Empresa>16</id_Empresa>
+        <Nombre>Esta es una nueva empresa</Nombre>
+        <Descripcion>Nueva empresa</Descripcion>
+        <Giro>12</Giro>
+        <Tamano>2</Tamano>
+        <Telefono>4544566</Telefono>
+    </empresa>
+    <empresa>
+        <id_Empresa>17</id_Empresa>
+        <Nombre>asdasdasd</Nombre>
+        <Descripcion>asdasdasd</Descripcion>
+        <Giro>20</Giro>
+        <Tamano>3</Tamano>
+        <Telefono></Telefono>
+    </empresa>
+    <empresa>
+        <id_Empresa>18</id_Empresa>
+        <Nombre>ssd</Nombre>
+        <Descripcion>sssss</Descripcion>
+        <Giro>8</Giro>
+        <Tamano>0</Tamano>
+        <Telefono></Telefono>
+    </empresa>
+    <empresa>
+        <id_Empresa>19</id_Empresa>
+        <Nombre>rrrrrrrrrrrrrrr</Nombre>
+        <Descripcion>rrrrrrrrrrrrr</Descripcion>
+        <Giro>7</Giro>
+        <Tamano>4</Tamano>
+        <Telefono>we232323</Telefono>
+    </empresa>
+    <empresa>
+        <id_Empresa>20</id_Empresa>
+        <Nombre>qqqqqqqqqqqq</Nombre>
+        <Descripcion>wwwwwwwwwwww</Descripcion>
+        <Giro>16</Giro>
+        <Tamano>0</Tamano>
+        <Telefono>1111uuu</Telefono>
+    </empresa>
+    <empresa>
+        <id_Empresa>21</id_Empresa>
+        <Nombre>wwwwwwwwwwwwww</Nombre>
+        <Descripcion>wwwwwww</Descripcion>
+        <Giro>6</Giro>
+        <Tamano>1</Tamano>
+        <Telefono></Telefono>
+    </empresa>
+    <empresa>
+        <id_Empresa>22</id_Empresa>
+        <Nombre>zzzzzzzzzzzzz</Nombre>
+        <Descripcion>zzzzzzzzzz</Descripcion>
+        <Giro>13</Giro>
+        <Tamano>0</Tamano>
+        <Telefono></Telefono>
+    </empresa>
+    <empresa>
+        <id_Empresa>23</id_Empresa>
+        <Nombre>dddddddddddddddddd</Nombre>
+        <Descripcion>dddddddd</Descripcion>
+        <Giro>7</Giro>
+        <Tamano>2</Tamano>
+        <Telefono>12131312</Telefono>
+    </empresa>
+    <empresa>
+        <id_Empresa>24</id_Empresa>
+        <Nombre>qweqweqweqweqweqwe</Nombre>
+        <Descripcion>qweqweqweqweqweqweqweqwe</Descripcion>
+        <Giro>18</Giro>
+        <Tamano>2</Tamano>
+        <Telefono>qweqwewqe</Telefono>
+    </empresa>
+    <empresa>
+        <id_Empresa>25</id_Empresa>
+        <Nombre>popoopipoipoipoiopipiopiopi</Nombre>
+        <Descripcion>poipoipoipoipoipiposadasdasdasdasd</Descripcion>
+        <Giro>9</Giro>
+        <Tamano>2</Tamano>
+        <Telefono>ee3ee3e</Telefono>
+    </empresa>
+    <empresa>
+        <id_Empresa>26</id_Empresa>
+        <Nombre>Agregar compaÃ±Ã­a</Nombre>
+        <Descripcion>Agregada</Descripcion>
+        <Giro>2</Giro>
+        <Tamano>0</Tamano>
+        <Telefono>0009090</Telefono>
+    </empresa>
+    <empresa>
+        <id_Empresa>27</id_Empresa>
+        <Nombre>Otra de las empresas</Nombre>
+        <Descripcion>Agregar otra de las empresas</Descripcion>
+        <Giro>5</Giro>
+        <Tamano>2</Tamano>
+        <Telefono></Telefono>
+    </empresa>
+    <empresa>
+        <id_Empresa>28</id_Empresa>
+        <Nombre>Empresa a eliminar</Nombre>
+        <Descripcion>Empresa a eliminar</Descripcion>
+        <Giro>4</Giro>
+        <Tamano>4</Tamano>
+        <Telefono>123131321</Telefono>
+    </empresa>
+    <empresa>
+        <id_Empresa>29</id_Empresa>
+        <Nombre>Otra empresa</Nombre>
+        <Descripcion>Otra</Descripcion>
+        <Giro>12</Giro>
+        <Tamano>2</Tamano>
+        <Telefono>455779912244</Telefono>
+    </empresa>
+    <empresa>
+        <id_Empresa>30</id_Empresa>
+        <Nombre>Compania de prueba agregada</Nombre>
+        <Descripcion>Compania agregada desde usuario</Descripcion>
+        <Giro>2</Giro>
+        <Tamano>1</Tamano>
+        <Telefono>123123123123</Telefono>
+    </empresa>
+  <!-- Tabla evaluacion -->
+    <evaluacion>
+        <id_Evaluacion>1</id_Evaluacion>
+        <Empresa_id_Empresa>1</Empresa_id_Empresa>
+        <fecha_creacion>2009-09-03</fecha_creacion>
+        <Activa>1</Activa>
+    </evaluacion>
+    <evaluacion>
+        <id_Evaluacion>2</id_Evaluacion>
+        <Empresa_id_Empresa>1</Empresa_id_Empresa>
+        <fecha_creacion>2009-09-01</fecha_creacion>
+        <Activa>0</Activa>
+    </evaluacion>
+  <!-- Tabla preguntas -->
+    <preguntas>
+        <id_Preguntas>1</id_Preguntas>
+        <Criterios_id_Criterios>1</Criterios_id_Criterios>
+        <Numero>1.1</Numero>
+        <Descripcion>Pregunta 1.1</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>2</id_Preguntas>
+        <Criterios_id_Criterios>1</Criterios_id_Criterios>
+        <Numero>1.2</Numero>
+        <Descripcion>Pregunta 1.2</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>3</id_Preguntas>
+        <Criterios_id_Criterios>1</Criterios_id_Criterios>
+        <Numero>1.3</Numero>
+        <Descripcion>Pregunta 1.3</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>4</id_Preguntas>
+        <Criterios_id_Criterios>1</Criterios_id_Criterios>
+        <Numero>1.4</Numero>
+        <Descripcion>Pregunta 1.4</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>5</id_Preguntas>
+        <Criterios_id_Criterios>1</Criterios_id_Criterios>
+        <Numero>1.5</Numero>
+        <Descripcion>Pregunta 1.5</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>6</id_Preguntas>
+        <Criterios_id_Criterios>1</Criterios_id_Criterios>
+        <Numero>1.6</Numero>
+        <Descripcion>Pregunta 1.6</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>7</id_Preguntas>
+        <Criterios_id_Criterios>2</Criterios_id_Criterios>
+        <Numero>2.1</Numero>
+        <Descripcion>Pregunta 2.1</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>8</id_Preguntas>
+        <Criterios_id_Criterios>2</Criterios_id_Criterios>
+        <Numero>2.2</Numero>
+        <Descripcion>Pregunta 2.2</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>9</id_Preguntas>
+        <Criterios_id_Criterios>2</Criterios_id_Criterios>
+        <Numero>2.3</Numero>
+        <Descripcion>Pregunta 2.3</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>10</id_Preguntas>
+        <Criterios_id_Criterios>2</Criterios_id_Criterios>
+        <Numero>2.4</Numero>
+        <Descripcion>Pregunta 2.4</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>11</id_Preguntas>
+        <Criterios_id_Criterios>3</Criterios_id_Criterios>
+        <Numero>3.1</Numero>
+        <Descripcion>Pregunta 3.1</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>12</id_Preguntas>
+        <Criterios_id_Criterios>3</Criterios_id_Criterios>
+        <Numero>3.2</Numero>
+        <Descripcion>Pregunta 3.2</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>13</id_Preguntas>
+        <Criterios_id_Criterios>3</Criterios_id_Criterios>
+        <Numero>3.3</Numero>
+        <Descripcion>Pregunta 3.3</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>14</id_Preguntas>
+        <Criterios_id_Criterios>3</Criterios_id_Criterios>
+        <Numero>3.4</Numero>
+        <Descripcion>Pregunta 3.4</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>15</id_Preguntas>
+        <Criterios_id_Criterios>3</Criterios_id_Criterios>
+        <Numero>3.5</Numero>
+        <Descripcion>Pregnta 3.5</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>16</id_Preguntas>
+        <Criterios_id_Criterios>4</Criterios_id_Criterios>
+        <Numero>4.1</Numero>
+        <Descripcion>Pregunta 4.1</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>17</id_Preguntas>
+        <Criterios_id_Criterios>4</Criterios_id_Criterios>
+        <Numero>4.2</Numero>
+        <Descripcion>Pregunta 4.2</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>18</id_Preguntas>
+        <Criterios_id_Criterios>4</Criterios_id_Criterios>
+        <Numero>4.3</Numero>
+        <Descripcion>Pregunta 4.3</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>19</id_Preguntas>
+        <Criterios_id_Criterios>4</Criterios_id_Criterios>
+        <Numero>4.4</Numero>
+        <Descripcion>Pregunta 4.4</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>20</id_Preguntas>
+        <Criterios_id_Criterios>4</Criterios_id_Criterios>
+        <Numero>4.5</Numero>
+        <Descripcion>Pregunta 4.5</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>21</id_Preguntas>
+        <Criterios_id_Criterios>5</Criterios_id_Criterios>
+        <Numero>5.1</Numero>
+        <Descripcion>Pregunta 5.1</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>22</id_Preguntas>
+        <Criterios_id_Criterios>5</Criterios_id_Criterios>
+        <Numero>5.2</Numero>
+        <Descripcion>Pregunta 5.2</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>23</id_Preguntas>
+        <Criterios_id_Criterios>5</Criterios_id_Criterios>
+        <Numero>5.3</Numero>
+        <Descripcion>Pregunta 5.3</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>24</id_Preguntas>
+        <Criterios_id_Criterios>5</Criterios_id_Criterios>
+        <Numero>5.4</Numero>
+        <Descripcion>Pregunta 5.4</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>25</id_Preguntas>
+        <Criterios_id_Criterios>5</Criterios_id_Criterios>
+        <Numero>5.5</Numero>
+        <Descripcion>Pregunta 5.5</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>26</id_Preguntas>
+        <Criterios_id_Criterios>5</Criterios_id_Criterios>
+        <Numero>5.6</Numero>
+        <Descripcion>Pregunta 5.6</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>27</id_Preguntas>
+        <Criterios_id_Criterios>5</Criterios_id_Criterios>
+        <Numero>5.7</Numero>
+        <Descripcion>Pregunta 5.7</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>28</id_Preguntas>
+        <Criterios_id_Criterios>6</Criterios_id_Criterios>
+        <Numero>6.1</Numero>
+        <Descripcion>Pregunta 6.1</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>29</id_Preguntas>
+        <Criterios_id_Criterios>6</Criterios_id_Criterios>
+        <Numero>6.2</Numero>
+        <Descripcion>Pregunta 6.2</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>30</id_Preguntas>
+        <Criterios_id_Criterios>6</Criterios_id_Criterios>
+        <Numero>6.3</Numero>
+        <Descripcion>Pregunta 6.3</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>31</id_Preguntas>
+        <Criterios_id_Criterios>6</Criterios_id_Criterios>
+        <Numero>6.4</Numero>
+        <Descripcion>Pregunta 6.4</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>32</id_Preguntas>
+        <Criterios_id_Criterios>6</Criterios_id_Criterios>
+        <Numero>6.5</Numero>
+        <Descripcion>Pregunta 6.5</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>33</id_Preguntas>
+        <Criterios_id_Criterios>6</Criterios_id_Criterios>
+        <Numero>6.6</Numero>
+        <Descripcion>Pregunta 6.6</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>34</id_Preguntas>
+        <Criterios_id_Criterios>6</Criterios_id_Criterios>
+        <Numero>6.7</Numero>
+        <Descripcion>Pregunta 6.7</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>35</id_Preguntas>
+        <Criterios_id_Criterios>7</Criterios_id_Criterios>
+        <Numero>7.1</Numero>
+        <Descripcion>Pregunat 7.1</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>36</id_Preguntas>
+        <Criterios_id_Criterios>7</Criterios_id_Criterios>
+        <Numero>7.2</Numero>
+        <Descripcion>Pregunta 7.2</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>37</id_Preguntas>
+        <Criterios_id_Criterios>7</Criterios_id_Criterios>
+        <Numero>7.3</Numero>
+        <Descripcion>Pregunta 7.3</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>38</id_Preguntas>
+        <Criterios_id_Criterios>7</Criterios_id_Criterios>
+        <Numero>7.4</Numero>
+        <Descripcion>Pregunta 7.4</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>39</id_Preguntas>
+        <Criterios_id_Criterios>7</Criterios_id_Criterios>
+        <Numero>7.5</Numero>
+        <Descripcion>Pregunta 7.5</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>40</id_Preguntas>
+        <Criterios_id_Criterios>7</Criterios_id_Criterios>
+        <Numero>7.6</Numero>
+        <Descripcion>Pregunta 7.6</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>41</id_Preguntas>
+        <Criterios_id_Criterios>8</Criterios_id_Criterios>
+        <Numero>8.1</Numero>
+        <Descripcion>Pregunta 8.1</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>42</id_Preguntas>
+        <Criterios_id_Criterios>8</Criterios_id_Criterios>
+        <Numero>8.2</Numero>
+        <Descripcion>Pregunta 8.2</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>43</id_Preguntas>
+        <Criterios_id_Criterios>8</Criterios_id_Criterios>
+        <Numero>8.3</Numero>
+        <Descripcion>Pregunta 8.3</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>44</id_Preguntas>
+        <Criterios_id_Criterios>9</Criterios_id_Criterios>
+        <Numero>9.1</Numero>
+        <Descripcion>Pregunta 9.1</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>45</id_Preguntas>
+        <Criterios_id_Criterios>9</Criterios_id_Criterios>
+        <Numero>9.2</Numero>
+        <Descripcion>Pregunta 9.2</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>46</id_Preguntas>
+        <Criterios_id_Criterios>9</Criterios_id_Criterios>
+        <Numero>9.3</Numero>
+        <Descripcion>Pregunta 9.3</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>47</id_Preguntas>
+        <Criterios_id_Criterios>9</Criterios_id_Criterios>
+        <Numero>9.4</Numero>
+        <Descripcion>Pregunta 9.4</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>48</id_Preguntas>
+        <Criterios_id_Criterios>9</Criterios_id_Criterios>
+        <Numero>9.5</Numero>
+        <Descripcion>Pregunta 9.5</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>49</id_Preguntas>
+        <Criterios_id_Criterios>9</Criterios_id_Criterios>
+        <Numero>9.6</Numero>
+        <Descripcion>Pregunta 9.6</Descripcion>
+    </preguntas>
+    <preguntas>
+        <id_Preguntas>50</id_Preguntas>
+        <Criterios_id_Criterios>9</Criterios_id_Criterios>
+        <Numero>9.7</Numero>
+        <Descripcion>Pregunta 9.7</Descripcion>
+    </preguntas>
+  <!-- Tabla usuario -->
+    <usuario>
+        <id_usuario>1</id_usuario>
+        <Nombre_Usuario>ric</Nombre_Usuario>
+        <Contrasena>ff4dc518fb3d5d20a81fd1c6faff577641edf4b9</Contrasena>
+    </usuario>
+    <usuario>
+        <id_usuario>17</id_usuario>
+        <Nombre_Usuario>useradm</Nombre_Usuario>
+        <Contrasena>f72b8794d3f268f4f770e8aaa0a6e71f0ff06a56</Contrasena>
+    </usuario>
+    <usuario>
+        <id_usuario>18</id_usuario>
+        <Nombre_Usuario>jorge</Nombre_Usuario>
+        <Contrasena>5fbfda4ca50b8d3626bd7c320b22e6895e45b664</Contrasena>
+    </usuario>
+    <usuario>
+        <id_usuario>19</id_usuario>
+        <Nombre_Usuario>mora</Nombre_Usuario>
+        <Contrasena>bfcf71f003ca2c75d2d29d56a2e012088164ea19</Contrasena>
+    </usuario>
+    <usuario>
+        <id_usuario>20</id_usuario>
+        <Nombre_Usuario>oli</Nombre_Usuario>
+        <Contrasena>a6e109898af7cb57cb24d888c677c439d811cb4a</Contrasena>
+    </usuario>
+    <usuario>
+        <id_usuario>21</id_usuario>
+        <Nombre_Usuario>neta</Nombre_Usuario>
+        <Contrasena>72cee580307471b494c360a933ccb2e6ec58b7f1</Contrasena>
+    </usuario>
+    <usuario>
+        <id_usuario>22</id_usuario>
+        <Nombre_Usuario>usuario</Nombre_Usuario>
+        <Contrasena>7c174401f411ad683cb590ea3a5b73688defd95b</Contrasena>
+    </usuario>
+  <!-- Tabla usuario_datos -->
+    <usuario_datos>
+        <id_usuario>1</id_usuario>
+        <Usuario_id_usuario>1</Usuario_id_usuario>
+        <Empresa_id_Empresa>1</Empresa_id_Empresa>
+        <Nombre>Ricardo</Nombre>
+        <Apellidos>Galicia</Apellidos>
+        <Perfil>3</Perfil>
+        <Area>AREA</Area>
+    </usuario_datos>
+    <usuario_datos>
+        <id_usuario>6</id_usuario>
+        <Usuario_id_usuario>17</Usuario_id_usuario>
+        <Empresa_id_Empresa>1</Empresa_id_Empresa>
+        <Nombre>Usu</Nombre>
+        <Apellidos>Apellido2 Apellido 3</Apellidos>
+        <Perfil>3</Perfil>
+        <Area>area</Area>
+        <E_mail>asd@asd.com</E_mail>
+        <Telefono>456465456</Telefono>
+    </usuario_datos>
+    <usuario_datos>
+        <id_usuario>7</id_usuario>
+        <Usuario_id_usuario>18</Usuario_id_usuario>
+        <Empresa_id_Empresa>2</Empresa_id_Empresa>
+        <Nombre>jorge</Nombre>
+        <Apellidos>mendez</Apellidos>
+        <Perfil>2</Perfil>
+        <Area>area de director</Area>
+        <E_mail>sdasd@sdasdasd.com</E_mail>
+        <Telefono></Telefono>
+    </usuario_datos>
+    <usuario_datos>
+        <id_usuario>8</id_usuario>
+        <Usuario_id_usuario>19</Usuario_id_usuario>
+        <Empresa_id_Empresa>10</Empresa_id_Empresa>
+        <Nombre>Jimena</Nombre>
+        <Apellidos>Mora Robles</Apellidos>
+        <Perfil>1</Perfil>
+        <Area>Recursos Humanos</Area>
+        <E_mail></E_mail>
+        <Telefono>4467789</Telefono>
+    </usuario_datos>
+    <usuario_datos>
+        <id_usuario>9</id_usuario>
+        <Usuario_id_usuario>20</Usuario_id_usuario>
+        <Empresa_id_Empresa>6</Empresa_id_Empresa>
+        <Nombre>Oliva</Nombre>
+        <Apellidos>Guerrero Morales</Apellidos>
+        <Perfil>2</Perfil>
+        <Area>A</Area>
+        <E_mail>lsos@kd,com</E_mail>
+        <Telefono>78987</Telefono>
+    </usuario_datos>
+    <usuario_datos>
+        <id_usuario>10</id_usuario>
+        <Usuario_id_usuario>21</Usuario_id_usuario>
+        <Empresa_id_Empresa>5</Empresa_id_Empresa>
+        <Nombre>Nadia</Nombre>
+        <Apellidos>Gonzalez Torres</Apellidos>
+        <Perfil>1</Perfil>
+        <Area>B</Area>
+        <E_mail>llola@sd.com</E_mail>
+        <Telefono></Telefono>
+    </usuario_datos>
+    <usuario_datos>
+        <id_usuario>11</id_usuario>
+        <Usuario_id_usuario>22</Usuario_id_usuario>
+        <Empresa_id_Empresa>5</Empresa_id_Empresa>
+        <Nombre>Usuario</Nombre>
+        <Apellidos>Usuario1 Usuario 2</Apellidos>
+        <Perfil>2</Perfil>
+        <Area>area vw</Area>
+        <E_mail>lgdgd@dhdh.com</E_mail>
+        <Telefono>1349764528</Telefono>
+    </usuario_datos>
+    <usuario_datos>
+        <id_usuario>12</id_usuario>
+        <Usuario_id_usuario>23</Usuario_id_usuario>
+        <Empresa_id_Empresa>26</Empresa_id_Empresa>
+        <Nombre>elimina</Nombre>
+        <Apellidos>elimina</Apellidos>
+        <Perfil>2</Perfil>
+        <Area>elimina</Area>
+        <E_mail>elimina</E_mail>
+        <Telefono>elimina</Telefono>
+    </usuario_datos>
+  <!-- Tabla usuario_datos_has_criterios -->
+    <usuario_datos_has_criterios>
+        <Usuario_datos_Usuario_id_usuario>1</Usuario_datos_Usuario_id_usuario>
+        <Usuario_datos_id_usuario>1</Usuario_datos_id_usuario>
+        <Criterios_id_Criterios>1</Criterios_id_Criterios>
+    </usuario_datos_has_criterios>
+    <usuario_datos_has_criterios>
+        <Usuario_datos_Usuario_id_usuario>17</Usuario_datos_Usuario_id_usuario>
+        <Usuario_datos_id_usuario>6</Usuario_datos_id_usuario>
+        <Criterios_id_Criterios>1</Criterios_id_Criterios>
+    </usuario_datos_has_criterios>
+    <usuario_datos_has_criterios>
+        <Usuario_datos_Usuario_id_usuario>22</Usuario_datos_Usuario_id_usuario>
+        <Usuario_datos_id_usuario>11</Usuario_datos_id_usuario>
+        <Criterios_id_Criterios>1</Criterios_id_Criterios>
+    </usuario_datos_has_criterios>
+    <usuario_datos_has_criterios>
+        <Usuario_datos_Usuario_id_usuario>23</Usuario_datos_Usuario_id_usuario>
+        <Usuario_datos_id_usuario>12</Usuario_datos_id_usuario>
+        <Criterios_id_Criterios>1</Criterios_id_Criterios>
+    </usuario_datos_has_criterios>
+    <usuario_datos_has_criterios>
+        <Usuario_datos_Usuario_id_usuario>1</Usuario_datos_Usuario_id_usuario>
+        <Usuario_datos_id_usuario>1</Usuario_datos_id_usuario>
+        <Criterios_id_Criterios>2</Criterios_id_Criterios>
+    </usuario_datos_has_criterios>
+    <usuario_datos_has_criterios>
+        <Usuario_datos_Usuario_id_usuario>17</Usuario_datos_Usuario_id_usuario>
+        <Usuario_datos_id_usuario>6</Usuario_datos_id_usuario>
+        <Criterios_id_Criterios>2</Criterios_id_Criterios>
+    </usuario_datos_has_criterios>
+    <usuario_datos_has_criterios>
+        <Usuario_datos_Usuario_id_usuario>18</Usuario_datos_Usuario_id_usuario>
+        <Usuario_datos_id_usuario>7</Usuario_datos_id_usuario>
+        <Criterios_id_Criterios>2</Criterios_id_Criterios>
+    </usuario_datos_has_criterios>
+    <usuario_datos_has_criterios>
+        <Usuario_datos_Usuario_id_usuario>20</Usuario_datos_Usuario_id_usuario>
+        <Usuario_datos_id_usuario>9</Usuario_datos_id_usuario>
+        <Criterios_id_Criterios>2</Criterios_id_Criterios>
+    </usuario_datos_has_criterios>
+    <usuario_datos_has_criterios>
+        <Usuario_datos_Usuario_id_usuario>17</Usuario_datos_Usuario_id_usuario>
+        <Usuario_datos_id_usuario>6</Usuario_datos_id_usuario>
+        <Criterios_id_Criterios>3</Criterios_id_Criterios>
+    </usuario_datos_has_criterios>
+    <usuario_datos_has_criterios>
+        <Usuario_datos_Usuario_id_usuario>19</Usuario_datos_Usuario_id_usuario>
+        <Usuario_datos_id_usuario>8</Usuario_datos_id_usuario>
+        <Criterios_id_Criterios>3</Criterios_id_Criterios>
+    </usuario_datos_has_criterios>
+    <usuario_datos_has_criterios>
+        <Usuario_datos_Usuario_id_usuario>21</Usuario_datos_Usuario_id_usuario>
+        <Usuario_datos_id_usuario>10</Usuario_datos_id_usuario>
+        <Criterios_id_Criterios>3</Criterios_id_Criterios>
+    </usuario_datos_has_criterios>
+    <usuario_datos_has_criterios>
+        <Usuario_datos_Usuario_id_usuario>22</Usuario_datos_Usuario_id_usuario>
+        <Usuario_datos_id_usuario>11</Usuario_datos_id_usuario>
+        <Criterios_id_Criterios>3</Criterios_id_Criterios>
+    </usuario_datos_has_criterios>
+    <usuario_datos_has_criterios>
+        <Usuario_datos_Usuario_id_usuario>23</Usuario_datos_Usuario_id_usuario>
+        <Usuario_datos_id_usuario>12</Usuario_datos_id_usuario>
+        <Criterios_id_Criterios>3</Criterios_id_Criterios>
+    </usuario_datos_has_criterios>
+    <usuario_datos_has_criterios>
+        <Usuario_datos_Usuario_id_usuario>1</Usuario_datos_Usuario_id_usuario>
+        <Usuario_datos_id_usuario>1</Usuario_datos_id_usuario>
+        <Criterios_id_Criterios>4</Criterios_id_Criterios>
+    </usuario_datos_has_criterios>
+    <usuario_datos_has_criterios>
+        <Usuario_datos_Usuario_id_usuario>17</Usuario_datos_Usuario_id_usuario>
+        <Usuario_datos_id_usuario>6</Usuario_datos_id_usuario>
+        <Criterios_id_Criterios>4</Criterios_id_Criterios>
+    </usuario_datos_has_criterios>
+    <usuario_datos_has_criterios>
+        <Usuario_datos_Usuario_id_usuario>18</Usuario_datos_Usuario_id_usuario>
+        <Usuario_datos_id_usuario>7</Usuario_datos_id_usuario>
+        <Criterios_id_Criterios>4</Criterios_id_Criterios>
+    </usuario_datos_has_criterios>
+    <usuario_datos_has_criterios>
+        <Usuario_datos_Usuario_id_usuario>19</Usuario_datos_Usuario_id_usuario>
+        <Usuario_datos_id_usuario>8</Usuario_datos_id_usuario>
+        <Criterios_id_Criterios>4</Criterios_id_Criterios>
+    </usuario_datos_has_criterios>
+    <usuario_datos_has_criterios>
+        <Usuario_datos_Usuario_id_usuario>20</Usuario_datos_Usuario_id_usuario>
+        <Usuario_datos_id_usuario>9</Usuario_datos_id_usuario>
+        <Criterios_id_Criterios>4</Criterios_id_Criterios>
+    </usuario_datos_has_criterios>
+    <usuario_datos_has_criterios>
+        <Usuario_datos_Usuario_id_usuario>23</Usuario_datos_Usuario_id_usuario>
+        <Usuario_datos_id_usuario>12</Usuario_datos_id_usuario>
+        <Criterios_id_Criterios>4</Criterios_id_Criterios>
+    </usuario_datos_has_criterios>
+    <usuario_datos_has_criterios>
+        <Usuario_datos_Usuario_id_usuario>1</Usuario_datos_Usuario_id_usuario>
+        <Usuario_datos_id_usuario>1</Usuario_datos_id_usuario>
+        <Criterios_id_Criterios>5</Criterios_id_Criterios>
+    </usuario_datos_has_criterios>
+    <usuario_datos_has_criterios>
+        <Usuario_datos_Usuario_id_usuario>17</Usuario_datos_Usuario_id_usuario>
+        <Usuario_datos_id_usuario>6</Usuario_datos_id_usuario>
+        <Criterios_id_Criterios>5</Criterios_id_Criterios>
+    </usuario_datos_has_criterios>
+    <usuario_datos_has_criterios>
+        <Usuario_datos_Usuario_id_usuario>18</Usuario_datos_Usuario_id_usuario>
+        <Usuario_datos_id_usuario>7</Usuario_datos_id_usuario>
+        <Criterios_id_Criterios>5</Criterios_id_Criterios>
+    </usuario_datos_has_criterios>
+    <usuario_datos_has_criterios>
+        <Usuario_datos_Usuario_id_usuario>20</Usuario_datos_Usuario_id_usuario>
+        <Usuario_datos_id_usuario>9</Usuario_datos_id_usuario>
+        <Criterios_id_Criterios>5</Criterios_id_Criterios>
+    </usuario_datos_has_criterios>
+    <usuario_datos_has_criterios>
+        <Usuario_datos_Usuario_id_usuario>22</Usuario_datos_Usuario_id_usuario>
+        <Usuario_datos_id_usuario>11</Usuario_datos_id_usuario>
+        <Criterios_id_Criterios>5</Criterios_id_Criterios>
+    </usuario_datos_has_criterios>
+    <usuario_datos_has_criterios>
+        <Usuario_datos_Usuario_id_usuario>23</Usuario_datos_Usuario_id_usuario>
+        <Usuario_datos_id_usuario>12</Usuario_datos_id_usuario>
+        <Criterios_id_Criterios>5</Criterios_id_Criterios>
+    </usuario_datos_has_criterios>
+    <usuario_datos_has_criterios>
+        <Usuario_datos_Usuario_id_usuario>1</Usuario_datos_Usuario_id_usuario>
+        <Usuario_datos_id_usuario>1</Usuario_datos_id_usuario>
+        <Criterios_id_Criterios>6</Criterios_id_Criterios>
+    </usuario_datos_has_criterios>
+    <usuario_datos_has_criterios>
+        <Usuario_datos_Usuario_id_usuario>17</Usuario_datos_Usuario_id_usuario>
+        <Usuario_datos_id_usuario>6</Usuario_datos_id_usuario>
+        <Criterios_id_Criterios>6</Criterios_id_Criterios>
+    </usuario_datos_has_criterios>
+    <usuario_datos_has_criterios>
+        <Usuario_datos_Usuario_id_usuario>21</Usuario_datos_Usuario_id_usuario>
+        <Usuario_datos_id_usuario>10</Usuario_datos_id_usuario>
+        <Criterios_id_Criterios>6</Criterios_id_Criterios>
+    </usuario_datos_has_criterios>
+    <usuario_datos_has_criterios>
+        <Usuario_datos_Usuario_id_usuario>23</Usuario_datos_Usuario_id_usuario>
+        <Usuario_datos_id_usuario>12</Usuario_datos_id_usuario>
+        <Criterios_id_Criterios>6</Criterios_id_Criterios>
+    </usuario_datos_has_criterios>
+    <usuario_datos_has_criterios>
+        <Usuario_datos_Usuario_id_usuario>1</Usuario_datos_Usuario_id_usuario>
+        <Usuario_datos_id_usuario>1</Usuario_datos_id_usuario>
+        <Criterios_id_Criterios>7</Criterios_id_Criterios>
+    </usuario_datos_has_criterios>
+    <usuario_datos_has_criterios>
+        <Usuario_datos_Usuario_id_usuario>17</Usuario_datos_Usuario_id_usuario>
+        <Usuario_datos_id_usuario>6</Usuario_datos_id_usuario>
+        <Criterios_id_Criterios>7</Criterios_id_Criterios>
+    </usuario_datos_has_criterios>
+    <usuario_datos_has_criterios>
+        <Usuario_datos_Usuario_id_usuario>18</Usuario_datos_Usuario_id_usuario>
+        <Usuario_datos_id_usuario>7</Usuario_datos_id_usuario>
+        <Criterios_id_Criterios>7</Criterios_id_Criterios>
+    </usuario_datos_has_criterios>
+    <usuario_datos_has_criterios>
+        <Usuario_datos_Usuario_id_usuario>19</Usuario_datos_Usuario_id_usuario>
+        <Usuario_datos_id_usuario>8</Usuario_datos_id_usuario>
+        <Criterios_id_Criterios>7</Criterios_id_Criterios>
+    </usuario_datos_has_criterios>
+    <usuario_datos_has_criterios>
+        <Usuario_datos_Usuario_id_usuario>20</Usuario_datos_Usuario_id_usuario>
+        <Usuario_datos_id_usuario>9</Usuario_datos_id_usuario>
+        <Criterios_id_Criterios>7</Criterios_id_Criterios>
+    </usuario_datos_has_criterios>
+    <usuario_datos_has_criterios>
+        <Usuario_datos_Usuario_id_usuario>21</Usuario_datos_Usuario_id_usuario>
+        <Usuario_datos_id_usuario>10</Usuario_datos_id_usuario>
+        <Criterios_id_Criterios>7</Criterios_id_Criterios>
+    </usuario_datos_has_criterios>
+    <usuario_datos_has_criterios>
+        <Usuario_datos_Usuario_id_usuario>22</Usuario_datos_Usuario_id_usuario>
+        <Usuario_datos_id_usuario>11</Usuario_datos_id_usuario>
+        <Criterios_id_Criterios>7</Criterios_id_Criterios>
+    </usuario_datos_has_criterios>
+    <usuario_datos_has_criterios>
+        <Usuario_datos_Usuario_id_usuario>23</Usuario_datos_Usuario_id_usuario>
+        <Usuario_datos_id_usuario>12</Usuario_datos_id_usuario>
+        <Criterios_id_Criterios>7</Criterios_id_Criterios>
+    </usuario_datos_has_criterios>
+    <usuario_datos_has_criterios>
+        <Usuario_datos_Usuario_id_usuario>17</Usuario_datos_Usuario_id_usuario>
+        <Usuario_datos_id_usuario>6</Usuario_datos_id_usuario>
+        <Criterios_id_Criterios>8</Criterios_id_Criterios>
+    </usuario_datos_has_criterios>
+    <usuario_datos_has_criterios>
+        <Usuario_datos_Usuario_id_usuario>1</Usuario_datos_Usuario_id_usuario>
+        <Usuario_datos_id_usuario>1</Usuario_datos_id_usuario>
+        <Criterios_id_Criterios>9</Criterios_id_Criterios>
+    </usuario_datos_has_criterios>
+    <usuario_datos_has_criterios>
+        <Usuario_datos_Usuario_id_usuario>17</Usuario_datos_Usuario_id_usuario>
+        <Usuario_datos_id_usuario>6</Usuario_datos_id_usuario>
+        <Criterios_id_Criterios>9</Criterios_id_Criterios>
+    </usuario_datos_has_criterios>
+    <usuario_datos_has_criterios>
+        <Usuario_datos_Usuario_id_usuario>21</Usuario_datos_Usuario_id_usuario>
+        <Usuario_datos_id_usuario>10</Usuario_datos_id_usuario>
+        <Criterios_id_Criterios>9</Criterios_id_Criterios>
+    </usuario_datos_has_criterios>
+    <usuario_datos_has_criterios>
+        <Usuario_datos_Usuario_id_usuario>22</Usuario_datos_Usuario_id_usuario>
+        <Usuario_datos_id_usuario>11</Usuario_datos_id_usuario>
+        <Criterios_id_Criterios>9</Criterios_id_Criterios>
+    </usuario_datos_has_criterios>
+    <usuario_datos_has_criterios>
+        <Usuario_datos_Usuario_id_usuario>23</Usuario_datos_Usuario_id_usuario>
+        <Usuario_datos_id_usuario>12</Usuario_datos_id_usuario>
+        <Criterios_id_Criterios>9</Criterios_id_Criterios>
+    </usuario_datos_has_criterios>
+  <!-- Tabla usuario_datos_has_preguntas -->
+    <usuario_datos_has_preguntas>
+        <Preguntas_id_Preguntas>1</Preguntas_id_Preguntas>
+        <Usuario_datos_Usuario_id_usuario>1</Usuario_datos_Usuario_id_usuario>
+        <Usuario_datos_id_usuario>1</Usuario_datos_id_usuario>
+        <Preguntas_Criterios_id_Criterios>1</Preguntas_Criterios_id_Criterios>
+        <Evaluacion_id_Evaluacion>1</Evaluacion_id_Evaluacion>
+        <Evaluacion_Empresa_id_Empresa>1</Evaluacion_Empresa_id_Empresa>
+        <Calificacion>80</Calificacion>
+    </usuario_datos_has_preguntas>
+    <usuario_datos_has_preguntas>
+        <Preguntas_id_Preguntas>2</Preguntas_id_Preguntas>
+        <Usuario_datos_Usuario_id_usuario>1</Usuario_datos_Usuario_id_usuario>
+        <Usuario_datos_id_usuario>1</Usuario_datos_id_usuario>
+        <Preguntas_Criterios_id_Criterios>1</Preguntas_Criterios_id_Criterios>
+        <Evaluacion_id_Evaluacion>1</Evaluacion_id_Evaluacion>
+        <Evaluacion_Empresa_id_Empresa>1</Evaluacion_Empresa_id_Empresa>
+        <Calificacion>30</Calificacion>
+    </usuario_datos_has_preguntas>
+</db_t-kaizen>
