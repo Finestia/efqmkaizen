@@ -1,0 +1,1 @@
+Sitio web que permita aplicar el modelo EFQM a la empresa T-Systems, de manera que reportes e indicadores sean presentados como parte de los resultados obtenidos sobre el estudio.
